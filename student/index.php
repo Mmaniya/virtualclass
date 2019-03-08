@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Virtual Class	 - Login</title>
-	<?php echo include_once "function/css_js.php" ?>
+	<?php  include_once "function/css_js.php" ?>
 
 </head>
 <body>

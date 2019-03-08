@@ -108,7 +108,7 @@ include_once('db/dpconfig.php');
                         </thead>
                             <tbody> 
                             <?php
-								$teacherid = $_SESSION['teacher_id'];
+								$teacherid = $_SESSION['student_id'];
                                 $sql = "SELECT *,
 								(SELECT `name` FROM teacher_details WHERE teacher_details.id = student_panel.teacherid)teacherid
 								  FROM student_panel WHERE status='1'";
